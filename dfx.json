@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "Aadhaar_directory": {
+      "main": "src/Aadhaar-directory/Main.mo"
+    },
+    "www": {
+      "frontend": {
+        "entrypoint": "src/www/public/index.html"
+      },
+      "source": [
+        "src/www/assets",
+        "dist/www/"
+      ],
+      "dependencies": [
+        "Aadhaar_directory"
+      ],
+      "type": "assets"
+    }
+  }
+}
