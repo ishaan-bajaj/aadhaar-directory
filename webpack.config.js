@@ -85,7 +85,7 @@ module.exports = {
     }),
     new webpack.EnvironmentPlugin({
       NODE_ENV: 'development',
-      PHONE_BOOK_CANISTER_ID: canisters["Aadhaar_directory"]
+      AADHAAR_DIRECTORY_CANISTER_ID: canisters["Aadhaar_directory"]
     }),
     new webpack.ProvidePlugin({
       Buffer: [require.resolve("buffer/"), "Buffer"],

@@ -47997,7 +47997,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 const canisterId =
   process.env.CANISTER_ID_AADHAAR_DIRECTORY ||
-  process.env.AADHAAR_DIRECTORY_CANISTER_ID;
+  "c5kvi-uuaaa-aaaaa-qaaia-cai";
 
 const createActor = (canisterId, options = {}) => {
   const agent = options.agent || new _dfinity_agent__WEBPACK_IMPORTED_MODULE_0__.HttpAgent({ ...options.agentOptions });
